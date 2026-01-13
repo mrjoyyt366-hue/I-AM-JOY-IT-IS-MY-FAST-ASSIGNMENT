@@ -52,6 +52,9 @@ nav button{
     text-align: center;
     color: #FFFFFF;
     max-width: 770px;
+    width: 1360;
+    height: 379px;
+
 }
 .hero-text{
     display: inline-block;
@@ -63,6 +66,7 @@ nav button{
     font-size: 16px;
     font-weight: 500;
     line-height:100%;
+    
 }
 .hero-container h1{
    font-size: 72px;
