@@ -114,3 +114,79 @@ nav button{
     display: flex;
     gap: 10px;
 }
+.Notes-Section{
+    width: 1600px;
+    height: 448px;
+    background-color:#f9fafb;
+    padding-left: 120px;
+    padding-bottom: 120px;
+    padding-right: 120px;
+    text-align: center;
+    gap: 44px;
+    
+}
+
+
+.Notes-hading-box {
+  max-width: 900px;
+  padding: 25px;
+  text-align: center;
+  margin: auto;  
+}
+
+.Notes-hading-box h2 {
+  font-size: 48px;
+  font-weight: 700;
+  margin-bottom: 10px;
+  color: #001931;
+}
+
+.Notes-hading-box p {
+  font-size: 16px;
+  color: #627382;
+  font-weight: 400;
+  
+}
+.CARD-continer{
+    width: 1360px;
+    height: 300px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    
+}
+.card-1{
+    margin:auto;
+    max-width: 322px;
+    height: 300px;
+    text-align: center;
+    padding: 24px;
+    gap: 24px;
+    border-radius:8px;
+    box-shadow:0 10px 25px rgba(0,0,0,0.08);
+}
+.card-1 h3{
+    font-size: 24px;
+    font-weight: 600;
+    color: #001931;
+    margin-bottom: 16px;
+    line-height:100%;
+}
+.card-1 p{
+    font-size:16px;
+    font-weight:400;
+    margin-bottom: 21px;
+    line-height: 20px;
+}
+.card-icon{
+    width:60px;
+    height:60px;
+    background-color: #F95555;
+    color: #FFFFFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto 20px;
+    border-radius:50%;
+
+}
