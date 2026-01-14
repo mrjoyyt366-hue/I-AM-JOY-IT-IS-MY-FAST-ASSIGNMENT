@@ -291,6 +291,7 @@ nav button{
       font-size: 16px;
       font-weight: 600;
       margin-bottom: 16px;
+      box-shadow: 0 5px 10px 5px rgba(0, 0, 0,0.05);
 }
 .Early-Access-Section a img{
     margin: 5px 0 0 0;
@@ -303,9 +304,10 @@ nav button{
     justify-content: center;
     border-radius: 4px;
     gap: 10px;
+    
 }
  
-.Early-Access-Section{
+.Early-Access-Section span{
     font-size: 16px;
     font-weight: 400;
     color: #627382;
