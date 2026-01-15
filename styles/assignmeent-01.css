@@ -36,6 +36,14 @@ nav button{
     width: 164px;
     height: 44px;
 }
+nav button a {
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 600;
+    color: #FFFFFF;
+    text-align: center;
+}
+
 .hero{
     width: 1600px;
     height:674px;
@@ -56,18 +64,19 @@ nav button{
     height: 379px;
 
 }
-.hero-text{
-    display: inline-block;
-    background-color: #FFFFFF;
-    color: #000;
-    padding: 8px 12px ;
-    border-radius: 1000px;
+.hero-1st-box{
+    display: inline-flex;
+    align-items: center;
     gap: 6px;
+    background-color: #FFFFFF;
+    color: #469165;
+    padding: 8px 12px;
+    border-radius: 1000px;
     font-size: 16px;
     font-weight: 500;
-    line-height:100%;
-    
+    margin-bottom: 20px;
 }
+
 .hero-container h1{
    font-size: 72px;
    font-weight: 700;
@@ -279,31 +288,31 @@ nav button{
    color: #627382;
    margin-bottom: 24px;
 }
-.Early-Access-Section a{
-      width: 194px;
-      height: 52px;
-      background-color: #469165;
-      justify-content:center;
-      padding: 12px 16px 12px 16px;
-      text-decoration: none;
-      align-items: center;
-      color: #FFFFFF;
-      font-size: 16px;
-      font-weight: 600;
-      margin-bottom: 16px;
-      box-shadow: 0 5px 10px 5px rgba(0, 0, 0,0.05);
+.early-access-btn{
+    display: inline-flex;
+    background-color: #469165;
+    padding: 12px 16px;
+    border-radius: 4px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 16px;
 }
-.Early-Access-Section a img{
-    margin: 5px 0 0 0;
-    width: 20px;
-    height: 20px;
+.early-access-btn:hover{
+    background-color: aqua;
     
 }
-.button{
+
+.early-access-btn a{
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 600;
+    color: #FFFFFF;
+    margin-bottom: 10px;
+}
+.early-access-btn img{
+    margin-top: 2px;
     display: flex;
-    justify-content: center;
-    border-radius: 4px;
-    gap: 10px;
     
 }
  
